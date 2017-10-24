@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha-webpack --webpack-config webpack.config.js test/*.spec.js"
+    "test": "mocha-webpack --webpack-config webpack.config.js --require test/setup.js test/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/RyanDandrow/testing-vue#readme",
   "devDependencies": {
+    "expect": "^21.2.1",
+    "jsdom": "^11.3.0",
+    "jsdom-global": "^3.0.2",
     "mocha": "^4.0.1",
     "mocha-webpack": "^0.7.0",
     "vue": "^2.5.2",
