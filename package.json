@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/RyanDandrow/testing-vue#readme",
   "devDependencies": {
+    "vue": "^2.5.2",
     "vue-template-compiler": "^2.5.2",
     "vue-test-utils": "^1.0.0-beta.3"
   }
